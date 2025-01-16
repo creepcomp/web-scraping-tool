@@ -1,0 +1,23 @@
+{
+    "url": "https://example.com/products?page={id}",
+    "item": ".product-card",
+    "fields": [
+        {
+            "name": "id",
+            "autoincreament": true
+        },
+        {
+            "name": "title",
+            "selector": "h1.title"
+        },
+        {
+            "name": "price",
+            "selector": "span.price",
+            "pattern": "\\$(\\d+)"
+        },
+        {
+            "name": "url",
+            "link": true
+        }
+    ]
+}
